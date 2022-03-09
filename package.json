@@ -1,0 +1,27 @@
+{
+  "name": "backendnode",
+  "version": "0.1.0",
+  "description": "Un chat similar a telegram",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "node",
+    "js",
+    "server",
+    "backend"
+  ],
+  "author": "Cristain Gaona",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "multer": "^1.4.4",
+    "socket.io": "^4.4.1"
+  }
+}
